@@ -1,0 +1,35 @@
+startup.py
+导入模块原始文件
+from mobileperf.common.log import logger
+from mobileperf.android.tools.androiddevice import AndroidDevice
+from mobileperf.common.utils import TimeUtils,FileUtils,ZipUtils
+from mobileperf.android.cpu_top import CpuMonitor
+from mobileperf.android.meminfos import MemMonitor
+from mobileperf.android.trafficstats import TrafficMonitor
+from mobileperf.android.fps import FPSMonitor
+from mobileperf.android.powerconsumption import PowerMonitor
+from mobileperf.android.thread_num import ThreadNumMonitor
+from mobileperf.android.fd import FdMonitor
+from mobileperf.android.logcat import LogcatMonitor
+from mobileperf.android.devicemonitor import DeviceMonitor
+from mobileperf.android.monkey import Monkey
+from mobileperf.android.globaldata import RuntimeData
+from mobileperf.android.report import Report
+为方便跳转删除mobileperf
+
+
+from common.log import logger
+from android.tools.androiddevice import AndroidDevice
+from common.utils import TimeUtils,FileUtils,ZipUtils
+from android.cpu_top import CpuMonitor
+from android.meminfos import MemMonitor
+from android.trafficstats import TrafficMonitor
+from android.fps import FPSMonitor
+from android.powerconsumption import PowerMonitor
+from android.thread_num import ThreadNumMonitor
+from android.fd import FdMonitor
+from android.logcat import LogcatMonitor
+from android.devicemonitor import DeviceMonitor
+from android.monkey import Monkey
+from android.globaldata import RuntimeData
+from android.report import Report

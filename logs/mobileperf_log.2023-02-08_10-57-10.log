@@ -1,0 +1,25 @@
+[2023-02-08 10:57:00,226]DEBUG:mobileperf:startup:RuntimeData.top_dir:C:\Users\LENOVO\Desktop\mobileperf-master
+[2023-02-08 10:57:00,228]DEBUG:mobileperf:startup:configpath:C:\Users\LENOVO\Desktop\mobileperf-master\config.conf
+[2023-02-08 10:57:00,230]DEBUG:mobileperf:startup:{'package': ['com.ximalayaos.pad.tingkid'], 'pid_change_focus_package': '', 'frequency': 1, 'dumpheap_freq': 3600, 'timeout': 300, 'serialnum': 'YLH2144100094', 'mailbox': '390125133@qq.com', 'exceptionlog': ['fatal exception', 'has died'], 'save_path': '', 'phone_log_path': ['/data/anr'], 'monkey': '', 'main_activity': '', 'activity_list': ''}
+[2023-02-08 10:57:00,283]DEBUG:mobileperf:androiddevice:b'List of devices attached\r\n0123456789ABCDEF\tdevice\r\n\r\n'
+[2023-02-08 10:57:00,284]DEBUG:mobileperf:androiddevice:system have adb
+[2023-02-08 10:57:00,286]DEBUG:mobileperf:androiddevice:adb -s YLH2144100094 shell ls -l /data/local/tmp
+[2023-02-08 10:57:00,339]DEBUG:mobileperf:androiddevice:adb error info:
+b"adb.exe: device 'YLH2144100094' not found\r\n"
+[2023-02-08 10:57:00,339]INFO:mobileperf:androiddevice:adb -s YLH2144100094 shell ls -l /data/local/tmp time consume: 0.04349637031555176
+[2023-02-08 10:57:00,394]DEBUG:mobileperf:androiddevice:adb devices:
+[2023-02-08 10:57:00,394]DEBUG:mobileperf:androiddevice:['List of devices attached', '0123456789ABCDEF\tdevice', '']
+[2023-02-08 10:57:00,396]ERROR:mobileperf:startup:device not found:YLH2144100094
+[2023-02-08 10:57:02,452]DEBUG:mobileperf:androiddevice:adb devices:
+[2023-02-08 10:57:02,452]DEBUG:mobileperf:androiddevice:['List of devices attached', '0123456789ABCDEF\tdevice', '']
+[2023-02-08 10:57:02,452]ERROR:mobileperf:startup:device not found:YLH2144100094
+[2023-02-08 10:57:04,511]DEBUG:mobileperf:androiddevice:adb devices:
+[2023-02-08 10:57:04,512]DEBUG:mobileperf:androiddevice:['List of devices attached', '0123456789ABCDEF\tdevice', '']
+[2023-02-08 10:57:04,512]ERROR:mobileperf:startup:device not found:YLH2144100094
+[2023-02-08 10:57:06,572]DEBUG:mobileperf:androiddevice:adb devices:
+[2023-02-08 10:57:06,572]DEBUG:mobileperf:androiddevice:['List of devices attached', '0123456789ABCDEF\tdevice', '']
+[2023-02-08 10:57:06,573]ERROR:mobileperf:startup:device not found:YLH2144100094
+[2023-02-08 10:57:08,628]DEBUG:mobileperf:androiddevice:adb devices:
+[2023-02-08 10:57:08,629]DEBUG:mobileperf:androiddevice:['List of devices attached', '0123456789ABCDEF\tdevice', '']
+[2023-02-08 10:57:08,629]ERROR:mobileperf:startup:device not found:YLH2144100094
+[2023-02-08 10:57:10,644]ERROR:mobileperf:startup:after 5 times check,device not found:YLH2144100094
